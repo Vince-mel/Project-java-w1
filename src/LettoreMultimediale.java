@@ -1,7 +1,4 @@
-import entities.Audio;
-import entities.ElementoMultimediale;
-import entities.Immagine;
-import entities.Video;
+import entities.*;
 
 import java.util.Scanner;
 
@@ -48,7 +45,23 @@ public class LettoreMultimediale {
                 playlist[i] = new Video(titolo,volume,durata,luminosita);
 
             }
+        }
+        System.out.println("Inserisci quale elemento vuoi riprodurre (digita 0 per uscire): ");
+        int i = scanner.nextInt();
 
+        if (i >= 1 && i <= playlist.length) {
+            ElementoMultimediale elemento = playlist[i - 1];
+            if (elemento instanceof Riproduci) {
+                ((Riproduci) elemento).play();
+            } else if (elemento instanceof Immagine) {
+                ((Immagine) elemento).show();
+            }
+        } else if (i == 0) {
+            System.out.println("bye byeeeee ciao");
+            System.exit(0);
+        } else {
+            System.out.println("Indice non valido. Riprova.");
         }
-        }
+
+    }
     }
