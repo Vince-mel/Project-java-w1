@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="852bf1d6-ad47-4931-b082-1955bb1f8f73" name="Changes" comment="completato play() audio e test.">
+    <list default="true" id="852bf1d6-ad47-4931-b082-1955bb1f8f73" name="Changes" comment="completato play() video e test.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LettoreMultimediale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LettoreMultimediale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Immagine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Immagine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Video.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "onboarding.tips.debug.path": "/Users/vincenzo/Documents/Corso Back-End/Project-java-w1/src/Main.java"
+    "onboarding.tips.debug.path": "/Users/vincenzo/Documents/Corso Back-End/Project-java-w1/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -139,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701432457763</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="completato play() video e test.">
+      <option name="closed" value="true" />
+      <created>1701432771549</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701432771549</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -152,6 +160,7 @@
     <MESSAGE value="completato show() immagine e testato." />
     <MESSAGE value="completato show() immagine e test." />
     <MESSAGE value="completato play() audio e test." />
-    <option name="LAST_COMMIT_MESSAGE" value="completato play() audio e test." />
+    <MESSAGE value="completato play() video e test." />
+    <option name="LAST_COMMIT_MESSAGE" value="completato play() video e test." />
   </component>
 </project>
