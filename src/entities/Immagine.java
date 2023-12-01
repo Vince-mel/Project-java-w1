@@ -15,4 +15,8 @@ public class Immagine extends ElementoMultimediale{
     public void diminuisciLuminosita(){
         luminosita--;
     }
+
+    public void show() {
+
+    }
 }

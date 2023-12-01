@@ -29,5 +29,8 @@ public class Video extends ElementoMultimediale implements Riproduci{
         luminosita--;
     }
 
-
+    @Override
+    public void play() {
+        Riproduci.super.play();
+    }
 }

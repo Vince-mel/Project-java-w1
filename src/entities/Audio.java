@@ -18,4 +18,9 @@ public class Audio extends ElementoMultimediale implements Riproduci{
     public void alzaVolume() {
         volume++;
     }
+
+    @Override
+    public void play() {
+        Riproduci.super.play();
+    }
 }
