@@ -17,6 +17,6 @@ public class Immagine extends ElementoMultimediale{
     }
 
     public void show() {
-
+        System.out.println("Il titolo dell'immagine è: "+ titolo);
     }
 }
