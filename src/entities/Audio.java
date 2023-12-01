@@ -10,4 +10,12 @@ public class Audio extends ElementoMultimediale implements Riproduci{
         this.volume = volume;
         this.durata = durata;
     }
+
+    public  void abbassaVolume(){
+        volume--;
+    }
+
+    public void alzaVolume() {
+        volume++;
+    }
 }

@@ -11,4 +11,23 @@ public class Video extends ElementoMultimediale implements Riproduci{
         this.durata = durata;
         this.volume = volume;
     }
+
+    public  void abbassaVolume(){
+        volume--;
+    }
+
+    public void alzaVolume() {
+        volume++;
+    }
+
+
+    public void aumentaLuminosita(){
+        luminosita++;
+    }
+
+    public void diminuisciLuminosita(){
+        luminosita--;
+    }
+
+
 }

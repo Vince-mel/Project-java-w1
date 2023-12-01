@@ -8,4 +8,11 @@ public class Immagine extends ElementoMultimediale{
         this.luminosita = luminosita;
     }
 
+    public void aumentaLuminosita(){
+        luminosita++;
+    }
+
+    public void diminuisciLuminosita(){
+        luminosita--;
+    }
 }
