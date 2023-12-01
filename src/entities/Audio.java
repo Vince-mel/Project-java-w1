@@ -21,6 +21,14 @@ public class Audio extends ElementoMultimediale implements Riproduci{
 
     @Override
     public void play() {
-        Riproduci.super.play();
+        String pnt = " ! ";
+        String res = "";
+        for (int i = 0; i < volume; i++) {
+            res= res + pnt;
+        }
+        for (int i = 0; i < durata; i++) {
+            System.out.println("Riproduzione audio: " + titolo +" "+ res);
+
+        }
     }
 }
