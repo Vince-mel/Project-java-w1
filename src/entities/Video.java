@@ -31,6 +31,21 @@ public class Video extends ElementoMultimediale implements Riproduci{
 
     @Override
     public void play() {
-        Riproduci.super.play();
+
+        String astr = " * ";
+        String res = "";
+        for (int i = 0; i < luminosita; i++) {
+            res= res + astr;
+        }
+
+        String pnt = " ! ";
+        String res1 = "";
+        for (int i = 0; i < volume; i++) {
+            res= res + pnt;
+        }
+        for (int i = 0; i < durata; i++) {
+            System.out.println("Riproduzione video: " + titolo +" "+ res1 + " " + res);
+
+        }
     }
 }

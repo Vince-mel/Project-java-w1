@@ -21,7 +21,6 @@ public class Immagine extends ElementoMultimediale{
         String res = "";
         for (int i = 0; i < luminosita; i++) {
             res= res + astr;
-
         }
 
         System.out.println("Immagine: : " + titolo +  res);

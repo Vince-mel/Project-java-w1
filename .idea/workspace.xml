@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="852bf1d6-ad47-4931-b082-1955bb1f8f73" name="Changes" comment="completato show() immagine e test.">
+    <list default="true" id="852bf1d6-ad47-4931-b082-1955bb1f8f73" name="Changes" comment="completato play() audio e test.">
       <change beforePath="$PROJECT_DIR$/src/LettoreMultimediale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LettoreMultimediale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Audio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Immagine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Immagine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Video.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701431959702</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="completato play() audio e test.">
+      <option name="closed" value="true" />
+      <created>1701432457763</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701432457763</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -142,6 +151,7 @@
     <MESSAGE value="fixato il private di ElementoMultimediale che non mi permetteva di accedere a titolo" />
     <MESSAGE value="completato show() immagine e testato." />
     <MESSAGE value="completato show() immagine e test." />
-    <option name="LAST_COMMIT_MESSAGE" value="completato show() immagine e test." />
+    <MESSAGE value="completato play() audio e test." />
+    <option name="LAST_COMMIT_MESSAGE" value="completato play() audio e test." />
   </component>
 </project>
