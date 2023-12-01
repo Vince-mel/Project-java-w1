@@ -1,20 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="852bf1d6-ad47-4931-b082-1955bb1f8f73" name="Changes" comment="" />
+    <list default="true" id="852bf1d6-ad47-4931-b082-1955bb1f8f73" name="Changes" comment="fixato il private di ElementoMultimediale che non mi permetteva di accedere a titolo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LettoreMultimediale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LettoreMultimediale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Immagine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Immagine.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Vince-mel"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="cc940a66-7b09-4192-8624-cf38199c0eed" />
+        <option name="url" value="https://github.com/Vince-mel/Project-java-w1.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="2Yw4l7WTmdGazsoILYe5PZDVDFt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,14 +67,72 @@
       <option name="presentableId" value="Default" />
       <updated>1701423455761</updated>
     </task>
+    <task id="LOCAL-00001" summary="Rinomino il main in LettoreMultimediale e creo la classe astratta &quot;padre&quot; ElementoMultimediale">
+      <option name="closed" value="true" />
+      <created>1701423687806</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701423687806</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Creo la struttura base compresa di interfaccia per rendere il metodo play accessibile a tutti in modo tale da poter fare un @overide in ogni classe">
+      <option name="closed" value="true" />
+      <created>1701427350161</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701427350161</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Aggiunti attributi e costruttori a tutte le classi.">
+      <option name="closed" value="true" />
+      <created>1701428496093</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701428496093</updated>
+    </task>
+    <task id="LOCAL-00004" summary="aggiunti metodi per le classi opportune.">
+      <option name="closed" value="true" />
+      <created>1701429310017</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701429310017</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Aggiunto metodo show e override del play.">
+      <option name="closed" value="true" />
+      <created>1701429443727</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701429443727</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixato il private di ElementoMultimediale che non mi permetteva di accedere a titolo">
+      <option name="closed" value="true" />
+      <created>1701429719565</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701429719565</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rinomino il main in LettoreMultimediale e creo la classe astratta &quot;padre&quot; ElementoMultimediale" />
+    <MESSAGE value="Creo la struttura base compresa di interfaccia per rendere il metodo play accessibile a tutti in modo tale da poter fare un @overide in ogni classe" />
+    <MESSAGE value="Aggiunti attributi e costruttori a tutte le classi." />
+    <MESSAGE value="aggiunti metodi per le classi opportune." />
+    <MESSAGE value="Aggiunto metodo show e override del play." />
+    <MESSAGE value="fixato il private di ElementoMultimediale che non mi permetteva di accedere a titolo" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixato il private di ElementoMultimediale che non mi permetteva di accedere a titolo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>13</line>
+          <url>file://$PROJECT_DIR$/src/LettoreMultimediale.java</url>
+          <line>4</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

@@ -17,6 +17,13 @@ public class Immagine extends ElementoMultimediale{
     }
 
     public void show() {
-        System.out.println("Il titolo dell'immagine è: "+ titolo);
+        String astr = " * ";
+        String res = "";
+        for (int i = 0; i < luminosita; i++) {
+            res= res + astr;
+
+        }
+
+        System.out.println("Immagine: : " + titolo +  res);
     }
 }
